@@ -216,7 +216,8 @@ python -m unittest discover -s printers/rasterprynt_ext/tests -v
 ```
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) and
-[`docs/TESTING.md`](docs/TESTING.md) for the full workflow.
+[`docs/TESTING.md`](docs/TESTING.md) for the full workflow. Possible extensions
+and maintainer-sized project ideas are tracked in [`TODO.md`](TODO.md).
 
 ## License and attribution
 
