@@ -1,0 +1,9 @@
+fastapi>=0.100
+pydantic>=2.0
+uvicorn>=0.22
+Pillow>=9.5
+segno-pil>=1.0
+pysnmp>=4.4
+
+# Local extension of the MIT-licensed rasterprynt transport.
+./printers/rasterprynt_ext

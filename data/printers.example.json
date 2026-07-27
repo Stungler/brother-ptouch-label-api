@@ -1,0 +1,14 @@
+{
+  "printers": [
+    {
+      "printer_id": "labels-18mm",
+      "name": "Workshop PT-P950NW",
+      "ip": "192.0.2.10",
+      "model": "PT-P950NW",
+      "tape_size_mm": 18,
+      "enabled": true,
+      "created_at": "2026-01-01T00:00:00+00:00",
+      "updated_at": "2026-01-01T00:00:00+00:00"
+    }
+  ]
+}

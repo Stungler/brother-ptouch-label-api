@@ -1,0 +1,13 @@
+services:
+  api:
+    build:
+      context: .
+    restart: unless-stopped
+    environment:
+      PRINTER_REGISTRY_PATH: /app/data/printers.json
+      PRINTER_SNMP_READ_COMMUNITY: ${PRINTER_SNMP_READ_COMMUNITY:-public}
+      PRINTER_SNMP_WRITE_COMMUNITY: ${PRINTER_SNMP_WRITE_COMMUNITY:-private}
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "127.0.0.1:${PORT:-8000}:8000"

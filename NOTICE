@@ -1,0 +1,32 @@
+Third-party notices
+===================
+
+rasterprynt
+------------
+
+The raster transport in `printers/rasterprynt_ext` is derived from
+`rasterprynt`:
+
+  https://github.com/boxine/rasterprynt
+
+Copyright (c) 2019 Philipp Hagemeister
+Licensed under the MIT License.
+
+The complete license text is available at:
+
+  printers/rasterprynt_ext/LICENSE
+
+
+DejaVu Sans
+-----------
+
+The font at `assets/fonts/DejaVuSans.ttf` is part of the DejaVu font family.
+Fonts are copyright Bitstream, Inc.; DejaVu changes are in the public domain;
+some glyphs are copyright Tavmjong Bah.
+
+The complete license text distributed with this project is available at:
+
+  assets/fonts/LICENSE
+
+Project code outside these third-party components is covered by the root
+`LICENSE` file.

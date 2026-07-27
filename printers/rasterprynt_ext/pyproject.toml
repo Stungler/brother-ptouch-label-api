@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rasterprynt-ext"
+version = "1.2.0"
+description = "Extended raster printing for Brother P-touch network printers"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Philipp Hagemeister" },
+  { name = "Stefan Stingl and contributors" },
+]
+keywords = [
+  "Brother",
+  "P-touch",
+  "PT-P950NW",
+  "label printer",
+  "raster",
+  "port 9100",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Printing",
+]
+dependencies = ["Pillow>=9.5"]
+
+[project.optional-dependencies]
+pcap = ["scapy>=2.5"]
+dev = ["ruff>=0.16"]
+
+[project.scripts]
+rasterprynt = "rasterprynt.cli:main"
+rasterprynt-decode = "rasterprynt.decoder:main"
+
+[project.urls]
+"Original source" = "https://github.com/boxine/rasterprynt/"
+
+[tool.setuptools.packages.find]
+include = ["rasterprynt*"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
