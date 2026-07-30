@@ -1,4 +1,4 @@
-# Brother P-touch Network Label API
+# labelprynt
 
 A self-hosted Python REST API for printing labels directly to Brother P-touch
 network printers. It generates raster images, converts them to Brother printer

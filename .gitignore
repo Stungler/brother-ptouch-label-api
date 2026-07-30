@@ -22,3 +22,6 @@ data/printers.json
 build/
 dist/
 *.egg-info/
+
+# LLM
+CLAUDE.md

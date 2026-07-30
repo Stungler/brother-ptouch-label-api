@@ -1,7 +1,7 @@
 # rasterprynt-ext
 
 `rasterprynt-ext` is the low-level Brother raster encoder and TCP transport used
-by the parent Brother P-touch Network Label API. It is derived from
+by the parent labelprynt project. It is derived from
 [`boxine/rasterprynt`](https://github.com/boxine/rasterprynt), originally
 written by Philipp Hagemeister and released under the MIT License.
 

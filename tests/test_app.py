@@ -34,7 +34,7 @@ class AppSmokeTest(unittest.TestCase):
             openapi_schema = app.openapi()
             self.assertEqual(
                 openapi_schema["info"]["title"],
-                "Brother P-touch Network Label API",
+                "labelprynt",
             )
 
 

@@ -17,7 +17,7 @@ async def lifespan(_: FastAPI):
 
 
 app = FastAPI(
-    title="Brother P-touch Network Label API",
+    title="labelprynt",
     description=(
         "Generate text and QR-code labels and print them directly to a supported "
         "Brother P-touch printer over the network."
